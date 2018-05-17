@@ -3,13 +3,13 @@ title: CLUSIL
 email: info@clusil.lu
 description: 'CLUSIL a.s.b.l. develops cooperative actions with public authorities, semipublic authorities for the security of information.'
 
-url: https:// preprod.clusil.lu
+url: https://preprod.clusil.lu
 baseurl:
-logo:
+logo: /assets/logo.png
 
 timezone: Europe/Luxembourg
 future: true
-#permalink:
+
 
 twitter_url: https://twitter.com/clusil_lu
 #linkedin_url: 
@@ -17,6 +17,12 @@ twitter_url: https://twitter.com/clusil_lu
 markdown: kramdown
 permalink: /:categories/:title/
 highlight: rouge
+
+defaults:
+  - scope:
+      path: "assets/"
+    values: 
+      image: true 
 
 plugins:
 exclude:

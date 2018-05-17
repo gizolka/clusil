@@ -2,19 +2,18 @@
 - name: Home
   url: "/home"
 - name: Events
-  url: "/#events"
+  url: "/events"
 - name: About
-  url: "/#about"
+  url: "/about"
 - name: Partners
-  url: "/#partners"
+  url: "/partners"
 - name: Statistics
-  url: "/#statistics"
+  url: "/statistics"
 - name: Team
-  url: "/#team"
+  url: "/team"
 - name: Contact
-  url: "/#contact"
+  url: "/contact"
 - name: Join Us
-  url: "/#join-us
-
+  url: "/join-us"
 ---
 
